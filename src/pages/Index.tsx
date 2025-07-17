@@ -63,8 +63,8 @@ const Index = () => {
 
   const brands = [
     { name: "Micron", logo: "/lovable-uploads/9f657eaa-3833-480d-bee1-f3e1ba243d23.png" },
-    { name: "Kingston", logo: "/lovable-uploads/9cde80eb-27f4-48c8-a1b8-8b714a46dc1b.png" },
-    { name: "Transcend", logo: "/lovable-uploads/1b6f9cd3-d9f1-4ade-993f-7e0328b01569.png" },
+    { name: "Iris International", logo: "/lovable-uploads/samsung.jpg"},
+     { name: "Transcend", logo: "/lovable-uploads/1b6f9cd3-d9f1-4ade-993f-7e0328b01569.png" },
     { name: "Phison", logo: "/lovable-uploads/3b6fbfbd-70bd-4e4e-8a3c-f6d44439f520.png" },
     { name: "Western Digital", logo: "/lovable-uploads/7adfc1f9-a706-420e-b2fa-e74d4d2c6ae8.png" },
     { name: "SK Hynix", logo: "/lovable-uploads/413231c1-dedc-453d-8d9e-b4c96857c34b.png" },
@@ -72,12 +72,13 @@ const Index = () => {
     { name: "Intel", logo: "/lovable-uploads/5d380548-fd98-46c2-a4cc-57f2dae874ce.png" },
     { name: "AMD", logo: "/lovable-uploads/c712e54c-a428-49e4-93ab-19c3b28b7aec.png" },
     { name: "Iris International", logo: "/lovable-uploads/hp.png"},
-    { name: "Iris International", logo: "/lovable-uploads/samsung.jpg"},
+    { name: "Kingston", logo: "/lovable-uploads/9cde80eb-27f4-48c8-a1b8-8b714a46dc1b.png" },
     { name: "Iris International", logo: "/lovable-uploads/adata.jpg"},
     { name: "Iris International", logo: "/lovable-uploads/asus.png" },
     { name: "Iris International", logo: "/lovable-uploads/gigabyte.png" },
     { name: "Iris International", logo: "/lovable-uploads/lenovo.png" },
     { name: "Iris International", logo: "/lovable-uploads/msi.png" },
+    { name: "Iris International", logo: "/lovable-uploads/crucial.png" },
     { name: "Iris International", logo: "/lovable-uploads/dell.png" }
   ];
 
@@ -402,10 +403,11 @@ const Index = () => {
     <div className="text-sm text-primary-foreground/80 flex flex-col items-center gap-1">
       <div className="flex items-center gap-2">
         <MapPin className="w-4 h-4" />
-        <span>2nd Floor Flat F, Union Mansion</span>
+        <span></span>
       </div>
-      <p>33–35 Chatham Rd South, Tsim Sha Tsui,</p>
-      <p>Kowloon, Hong Kong</p>
+      <p>33–35 Chatham Rd South,32nd Floor</p>
+      <p>Flat F, Union Mansion</p>
+      <p>Tsim Sha Tsui, Kowloon, Hong Kong</p>
     </div>
   </div>
 </footer>
