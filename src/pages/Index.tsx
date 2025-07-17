@@ -71,7 +71,9 @@ const Index = () => {
     { name: "Palit", logo: "/lovable-uploads/60802102-4ded-4260-afb6-793706fe493b.png" },
     { name: "Intel", logo: "/lovable-uploads/5d380548-fd98-46c2-a4cc-57f2dae874ce.png" },
     { name: "AMD", logo: "/lovable-uploads/c712e54c-a428-49e4-93ab-19c3b28b7aec.png" },
-    { name: "Iris International", logo: "/lovable-uploads/5cfec853-7210-484a-beb3-012891939541.png"},
+    { name: "Iris International", logo: "/lovable-uploads/hp.png"},
+    { name: "Iris International", logo: "/lovable-uploads/samsung.jpg"},
+    { name: "Iris International", logo: "/lovable-uploads/adata.jpg"},
     { name: "Iris International", logo: "/lovable-uploads/asus.png" },
     { name: "Iris International", logo: "/lovable-uploads/gigabyte.png" },
     { name: "Iris International", logo: "/lovable-uploads/lenovo.png" },
@@ -130,7 +132,7 @@ const Index = () => {
   className="text-5xl md:text-6xl font-bold mb-6 mt-20 animate-fade-in-up hover:scale-105 transition-transform duration-300" 
   style={{color: '#007acc'}}
 >
-  Reliable IT Component Distributor
+  Reliable IT Component Supplier
 </h1>
 
             
@@ -363,18 +365,51 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="bg-primary text-primary-foreground py-8 px-4">
-        <div className="container mx-auto text-center">
-          <div className="mb-4">
-            <p className="text-sm">© 2025 HiTech Techno Limited. All rights reserved.</p>
-          </div>
-          <div className="text-sm text-primary-foreground/80 space-y-1">
-            <p>sales@hitechtechno.com | +86-1356-000-0000</p>
-            <p>5th Floor, TechSquare Tower, Shenzhen, China</p>
-          </div>
-        </div>
-      </footer>
+  <div className="container mx-auto text-center space-y-4">
+    <p className="text-sm">© 2025 HiTech Techno Limited. All rights reserved.</p>
+
+    <div className="flex justify-center items-center flex-wrap gap-6 text-primary-foreground/90 text-sm">
+      <a 
+        href="mailto:hitechtechnoltd@gmail.com" 
+        className="flex items-center gap-2 hover:underline"
+        target="_blank" 
+        rel="noopener noreferrer"
+      >
+        <Mail className="w-4 h-4" />
+        hitechtechnoltd@gmail.com
+      </a>
+
+      <a 
+        href="tel:+85262010004" 
+        className="flex items-center gap-2 hover:underline"
+      >
+        <Phone className="w-4 h-4" />
+        +852-6201-0004
+      </a>
+
+      <a 
+        href="https://wa.me/85262010004" 
+        className="flex items-center gap-2 hover:underline"
+        target="_blank" 
+        rel="noopener noreferrer"
+      >
+        <Send className="w-4 h-4" />
+        WhatsApp
+      </a>
+    </div>
+
+    <div className="text-sm text-primary-foreground/80 flex flex-col items-center gap-1">
+      <div className="flex items-center gap-2">
+        <MapPin className="w-4 h-4" />
+        <span>2nd Floor Flat F, Union Mansion</span>
+      </div>
+      <p>33–35 Chatham Rd South, Tsim Sha Tsui,</p>
+      <p>Kowloon, Hong Kong</p>
+    </div>
+  </div>
+</footer>
+
     </div>
   );
 };
