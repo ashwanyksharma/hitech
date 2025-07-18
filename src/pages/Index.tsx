@@ -228,11 +228,12 @@ const Index = () => {
                   <div className="space-y-3 text-muted-foreground">
                     <p className="flex items-center">
                       <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
-                      5th Floor, TechSquare Tower
+                      33-35 Chatham Rd South, 2nd floor flat F ,Union Mansion 
+
                     </p>
                     <p className="flex items-center">
                       <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
-                      Science Park, Shenzhen, China
+                      Tsim Sha Tsui Kowloon, Hong Kong
                     </p>
                   </div>
                 </CardContent>
@@ -247,7 +248,7 @@ const Index = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold" style={{color: '#007acc'}}>Phone</h4>
-                        <p className="text-muted-foreground">+86-1356-000-0000</p>
+                        <p className="text-muted-foreground">+852-6201-0004</p>
                       </div>
                     </div>
                   </CardContent>
@@ -261,7 +262,7 @@ const Index = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold" style={{color: '#007acc'}}>Email</h4>
-                        <p className="text-muted-foreground">sales@hitechtechno.com</p>
+                        <p className="text-muted-foreground">hitechtechnoltd@gmail.com</p>
                       </div>
                     </div>
                   </CardContent>
@@ -405,7 +406,7 @@ const Index = () => {
         <MapPin className="w-4 h-4" />
         <span></span>
       </div>
-      <p>33–35 Chatham Rd South,32nd Floor</p>
+      <p>33–35 Chatham Rd South,2nd Floor</p>
       <p>Flat F, Union Mansion</p>
       <p>Tsim Sha Tsui, Kowloon, Hong Kong</p>
     </div>
