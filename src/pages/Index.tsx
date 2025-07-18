@@ -272,6 +272,36 @@ const Index = () => {
           </div>
         </div>
       </section>
+      <section className="py-16 px-4 bg-white">
+  <div className="container mx-auto">
+    <div className="text-center mb-12">
+      <h2 className="text-4xl font-bold mb-4" style={{ color: '#007acc' }}>
+        Global Presence
+      </h2>
+      <p className="text-lg text-muted-foreground">
+        Regions We Deal In
+      </p>
+    </div>
+
+    <div className="max-w-3xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6 text-center animate-fade-in-up">
+      {['North America', 'Middle East', 'Asia', 'Europe'].map((region) => (
+        <div
+          key={region}
+          className="bg-secondary/20 p-6 rounded-lg shadow-sm hover:shadow-md transition-all duration-300"
+        >
+          <h3 className="text-xl font-semibold text-primary">{region}</h3>
+        </div>
+      ))}
+    </div>
+
+    <div className="text-center mt-10">
+      <p className="text-lg text-muted-foreground">
+        Clients from over <strong>15+ countries</strong> served
+      </p>
+    </div>
+  </div>
+</section>
+
 
       {/* Contact Section */}
       <section id="contact" className="py-16 px-4">
