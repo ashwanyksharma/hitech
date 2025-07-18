@@ -227,12 +227,12 @@ const Index = () => {
                   <h3 className="font-bold text-xl mb-4" style={{color: '#007acc'}}>HiTech Techno Limited</h3>
                   <div className="space-y-3 text-muted-foreground">
                     <p className="flex items-center">
-                      <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
+                      <span className="w-2 h-2   mr-3"></span>
                       33-35 Chatham Rd South, 2nd floor flat F, Union Mansion 
 
                     </p>
                     <p className="flex items-center">
-                      <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
+                      <span className="w-2 h-2  mr-3"></span>
                       Tsim Sha Tsui Kowloon, Hong Kong
                     </p>
                   </div>
