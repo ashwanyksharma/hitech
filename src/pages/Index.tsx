@@ -228,7 +228,7 @@ const Index = () => {
                   <div className="space-y-3 text-muted-foreground">
                     <p className="flex items-center">
                       <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
-                      33-35 Chatham Rd South, 2nd floor flat F ,Union Mansion 
+                      33-35 Chatham Rd South, 2nd floor flat F, Union Mansion 
 
                     </p>
                     <p className="flex items-center">
