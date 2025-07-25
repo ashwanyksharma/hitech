@@ -34,32 +34,44 @@ const Index = () => {
   };
 
   const products = [
-    {
-      icon: HardDrive,
-      title: "SSDs & NVMe Drives",
-      description: "High-performance solid state drives for enterprise and consumer applications"
-    },
-    {
-      icon: MemoryStick,
-      title: "RAM Modules",
-      description: "DDR4, DDR5 memory modules for servers, desktops, and laptops"
-    },
-    {
-      icon: Database,
-      title: "Flash Memory",
-      description: "USB drives, SD cards, and embedded flash storage solutions"
-    },
-    {
-      icon: Cpu,
-      title: "CPUs & Motherboards",
-      description: "Latest processors and compatible motherboards from leading manufacturers"
-    },
-    {
-      icon: HardDrive,
-      title: "Storage Devices",
-      description: "Traditional HDDs, external storage, and enterprise storage solutions"
-    }
-  ];
+  {
+    // icon: HardDrive,
+    title: "SSDs & NVMe Drives",
+    description: "High-performance solid state drives for enterprise and consumer applications",
+    image: "/lovable-uploads/ssd.jpg"
+  },
+  {
+    // icon: MemoryStick,
+    title: "RAM Modules",
+    description: "DDR3, DDR4, DDR5 memory modules for servers, desktops, and laptops",
+    image: "/lovable-uploads/ram.jpg"
+  },
+  {
+    // icon: Database,
+    title: "Flash Memory",
+    description: "USB drives, SD cards, and embedded flash storage solutions",
+    image: "/lovable-uploads/flash.jpg"
+  },
+  {
+    // icon: Cpu,
+    title: "CPUs & Motherboards",
+    description: "Latest processors and compatible motherboards from leading manufacturers, server CPUs from top brands for powerful performance",
+    image: "/lovable-uploads/cpu.jpg"
+  },
+  {
+    // icon: HardDrive,
+    title: "Storage Devices",
+    description: "Traditional HDDs, external storage, and enterprise storage solutions",
+    image: "/lovable-uploads/storage.jpg"
+  },
+  {
+    // icon: HardDrive,
+    title: "GPU",
+    description: "Powerful graphics cards for gaming, AI, and high-performance computing applications.",
+    image: "/lovable-uploads/gpu.jpg"
+  }
+];
+
 
   const brands = [
     { name: "Micron", logo: "/lovable-uploads/9f657eaa-3833-480d-bee1-f3e1ba243d23.png" },
@@ -165,19 +177,39 @@ const Index = () => {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
             {products.map((product, index) => (
-              <Card key={index} className="hover:shadow-lg transition-all duration-300 hover:scale-105 animate-fade-in-up" style={{animationDelay: `${index * 0.1}s`}}>
-                <CardContent className="p-6 text-center">
-                  <div className="w-16 h-16 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <product.icon className="w-8 h-8 text-accent" />
-                  </div>
-                  <h3 className="font-semibold text-lg mb-2" style={{color: '#007acc'}}>{product.title}</h3>
-                  <p className="text-muted-foreground text-sm">{product.description}</p>
-                </CardContent>
-              </Card>
-            ))}
+  <Card key={index} className="hover:shadow-lg transition-all duration-300 hover:scale-105 animate-fade-in-up" style={{ animationDelay: `${index * 0.1}s` }}>
+    <CardContent className="p-6 text-center">
+      {/* Product Image */}
+      <img 
+        src={product.image} 
+        alt={product.title} 
+        className="w-full h-40 object-cover rounded-lg mb-4" 
+      />
+{/*       
+      Icon
+      <div className="w-16 h-16 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-4">
+        <product.icon className="w-8 h-8 text-accent" />
+      </div>
+       */}
+      {/* Title & Description */}
+      <h3 className="font-semibold text-lg mb-2" style={{ color: '#007acc' }}>{product.title}</h3>
+      <p className="text-muted-foreground text-sm">{product.description}</p>
+    </CardContent>
+  </Card>
+))}
           </div>
         </div>
       </section>
+
+      {/* Product Availability Note */}
+<section className="py-10 px-4 bg-secondary/20">
+  <div className="container mx-auto text-center max-w-2xl">
+    <p className="text-lg text-muted-foreground">
+      All products available in <strong>Pulled/Refurbished</strong> and <strong>Brand New</strong> conditions
+    </p>
+  </div>
+</section>
+
 
       {/* Brands Section */}
       <section id="brands" className="py-16 px-4">
