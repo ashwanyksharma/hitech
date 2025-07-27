@@ -50,7 +50,7 @@ const Index = () => {
     // icon: Database,
     title: "Flash Memory",
     description: "USB drives, SD cards, and embedded flash storage solutions",
-    image: "/lovable-uploads/flash.jpg"
+    image: "/lovable-uploads/flash.png"
   },
   {
     // icon: Cpu,
@@ -217,7 +217,7 @@ const Index = () => {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4" style={{color: '#007acc'}}>Brands We Work With</h2>
             <p className="text-lg text-muted-foreground">
-              Trusted partnerships with industry-leading manufacturers
+             Trusted sourcing of products from industry-leading manufacturers
             </p>
           </div>
           
@@ -256,7 +256,7 @@ const Index = () => {
                   <div className="w-16 h-16 bg-gradient-to-br from-primary/20 to-accent/20 rounded-full flex items-center justify-center mb-6">
                     <MapPin className="w-8 h-8 text-primary" />
                   </div>
-                  <h3 className="font-bold text-xl mb-4" style={{color: '#007acc'}}>HiTech Techno Limited</h3>
+                  <h3 className="font-bold text-xl mb-4" style={{color: '#007acc'}}>Hitech Techno Limited</h3>
                   <div className="space-y-3 text-muted-foreground">
                     <p className="flex items-center">
                       <span className="w-2 h-2   mr-3"></span>
@@ -431,7 +431,7 @@ const Index = () => {
 
       <footer className="bg-primary text-primary-foreground py-8 px-4">
   <div className="container mx-auto text-center space-y-4">
-    <p className="text-sm">© 2025 HiTech Techno Limited. All rights reserved.</p>
+    <p className="text-sm">© 2025 Hitech Techno Limited. All rights reserved.</p>
 
     <div className="flex justify-center items-center flex-wrap gap-6 text-primary-foreground/90 text-sm">
       <a 
